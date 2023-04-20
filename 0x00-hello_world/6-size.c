@@ -5,6 +5,10 @@
  */
 int main(void)
 {
+	int a;
+	long int b;
+	long long int c;
+	float f;
 
 	printf("size of  a int: %lu byte(s)\n", (unsigned long)sizeof(a));
 	printf("size of long int: %lu byte(s)\n", (unsigned long)sizeof(b));
