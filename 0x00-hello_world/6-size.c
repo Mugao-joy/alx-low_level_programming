@@ -1,13 +1,19 @@
 #include <stdio.h>
 /**
- *main - entry point 
- *Description: a script that  prints the size of various types on the computer it is compiled and run on.
- *Return: 0 (success)
+ * main - print out sizes of data types in c
+ * Return: 0 (success)
  */
 int main(void)
 {
-	printf("size of  a char: %lu byte(s)\n",size of (char));
-	printf("size of int: %lu byte(s)\n",size of (int));
-	printf("size of float: %lu byte(s)\n",size of (float));
+	int a;
+	long int b;
+	long long int c;
+	char d;
+	float f;
+	printf("size of  a int: %lu byte(s)\n",size of (a));
+	printf("size of long int: %lu byte(s)\n",size of (b));
+	printf("size of long long int: %lu byte(s)\n;,size of (c));
+	printf("size of char: %lu byte(s)\n",size of (d));
+	printf("size of float: %lu byte(s)\n",size of (f));
 	return (0);
 }
