@@ -6,11 +6,9 @@
  */
 int main(void)
 {
-	int n;
+	int n,m;
 
-	int m;
-
-	for (n = 23; n <= 86; n++)
+	for (n = 23; n <= 36; n++)
 	{
 		for (m = 31; m <= 43; m++)
 		{
@@ -18,7 +16,7 @@ int main(void)
 			{
 				putchar(n);
 				putchar(m);
-				if (n != 86 || m != 43)
+				if (n != 36 || m != 43)
 				{
 					putchar(',');
 					putchar(' ');
