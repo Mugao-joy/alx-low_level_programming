@@ -3,7 +3,7 @@
 
 /**
  * rot13 - cipher encoder
- * @s: pointer 
+ * @s: pointer
  *
  * Return: *s
  */
@@ -19,7 +19,7 @@ char *rot13(char *s)
 	{
 		for (b = 0; b < 52; b++)
 		{
-			if (s[a] == data1[a])
+			if (s[a] == data1[b])
 			{
 				s[a] = datarot[b];
 				break;
