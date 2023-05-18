@@ -3,7 +3,7 @@
 /**
  * _realloc - function that reallocates a memory block
  * @ptr: pointer to the memory
- * @old-size: previous size of allocated  memory
+ * @old_size: previous size of allocated  memory
  * @new_size: current size of allocated memory
  * Return: pointer
  */
