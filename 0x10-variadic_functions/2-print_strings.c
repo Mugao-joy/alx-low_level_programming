@@ -6,7 +6,7 @@
  * @separator: string to be printed between the strings
  * @n: number of strings passed to the function
  * @...: standard in var_functions
- * Return: nil if string is NULL
+ * Return: nil if a string is NULL
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
